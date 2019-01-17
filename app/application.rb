@@ -13,14 +13,4 @@ class Application
   end
 end
 
-6.  
-7. if req.path=="/songs"
-8. resp.write "You requested the songs"
-9. else
-10. resp.write "Route not found"
-11. resp.status = 404
-12. end
-13.  
-14. resp.finish
-15. end
-end
+
